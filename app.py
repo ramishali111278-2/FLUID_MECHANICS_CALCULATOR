@@ -63,7 +63,23 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown('<div class="big-title">💧 PIPE FLOW & PRESSURE DROP CALCULATOR</div>', unsafe_allow_html=True)
-st.caption("Group 10 — ICT Project — Fluid Mechanics")
+st.markdown("""
+<div style="text-align:center; background:linear-gradient(135deg,#0d1b2a,#1a2a3a);
+border:1px solid #00e5ff; border-radius:10px; padding:0.8rem; margin-bottom:1rem;">
+    <span style="color:#aaa; font-size:0.8rem; letter-spacing:2px;">GROUP 10 — ICT PROJECT — FLUID MECHANICS</span><br><br>
+    <span style="color:#00e5ff; font-size:1rem; font-weight:bold;">👤 Ahmed Rashid</span>
+    <span style="color:#555;"> | </span>
+    <span style="color:#aaa; font-size:0.85rem;">25-ME-15</span>
+    &nbsp;&nbsp;&nbsp;
+    <span style="color:#00e5ff; font-size:1rem; font-weight:bold;">👤 Sheharyar Naveed</span>
+    <span style="color:#555;"> | </span>
+    <span style="color:#aaa; font-size:0.85rem;">25-ME-35</span>
+    &nbsp;&nbsp;&nbsp;
+    <span style="color:#00e5ff; font-size:1rem; font-weight:bold;">👤 Ramish Ali</span>
+    <span style="color:#555;"> | </span>
+    <span style="color:#aaa; font-size:0.85rem;">25-ME-87</span>
+</div>
+""", unsafe_allow_html=True)
 
 # ── Layout: Left inputs | Right diagram ──────────────────────────────────────
 left, right = st.columns([1, 1])
